@@ -8,16 +8,17 @@
 }
 
 .heading button {
-    float: right;
-    border: 1px solid white;
+  float: right;
+  border: 1px solid white;
 }
 
 .bigImage {
-    width: 100%;
+  width: 100%;
 }
 
-.play, .status {
-    font-size: 23px;
+.play,
+.status {
+  font-size: 23px;
 }
 
 h4 {
@@ -33,4 +34,11 @@ h4 {
 .instruction-image {
   display: inline-block;
   width: 45%;
+}
+
+video {
+  background: url("./game_console.png");
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
 }
